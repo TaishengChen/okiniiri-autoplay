@@ -19,7 +19,7 @@ idx = today.toordinal() % len(video_files)
 video_to_play = os.path.join(video_dir, video_files[idx])
 
 # VLC路径
-vlc_path = r"E:\Program Files\VideoLAN\VLC\vlc.exe"   # 改成你实际路径
+vlc_path = r"D:\Program Files\VideoLAN\VLC\vlc.exe"   # 改成你实际路径
 
 # 播放到第几个屏幕（扩展屏一般是1或2，自己试试）
 screen_number = 1
